@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="js-form">
+            <label for="search-GitHubHandle">Search for GitHub user handle</label>
+            <input type="text" name="search-GitHubHandle" id="js-search" required>
+            <input type="submit" value="Search!">
+    </form>
+
+    <section id="results" class="hidden">
+            <h2>Repo Results:</h2>
+            <ul id="results-list">
+            </ul>
+    </section>
+
+    <p id="js-error-message" class="error-message"></p>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src='script.js'></script>
+</body>
+</html>

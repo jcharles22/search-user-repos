@@ -1,0 +1,15 @@
+form {
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+p{
+    margin-left: 30px;
+}
